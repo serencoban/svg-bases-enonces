@@ -244,6 +244,17 @@ Dans cet article complet et clair, Chris Coyier s'intéresse à la mise en oeuvr
 
 ### Articles et tutoriels
 
+#### Des noms
+
+Il existe un grand nombre de ressources autour de SVG, mais on peut considérer quelques noms comme étant ceux qui guident la communauté.
+
+- [Sara Soueidan](https://www.sarasoueidan.com) est probablement la première à qui on pense quand on cherche des informations sur SVG. Elle collabore au collectif [Codrops](http://tympanus.net/codrops) où un grand nombre de ses expérimentations et articles ont marqué les esprits.
+- [Chris Coyier](https://www.css-tricks.com) anime le site css-tricks et est un des créateurs de [codepen.io](https://codepen.io). Les deux espaces regorgent de ressources et d’exemples sur SVG.
+- [Smashing-Magazine](https://www.smashingmagazine.com/search/?q=SVG) est un espace collaboratif sur lequel des auteurs interviennent pour poster des contenus sur tous les sujets liés à la création de sites WEB. SVG y occupe une place importante.
+- [Vecta.io](https://vecta.io/blog) produit divers outils de référence, payants, pour l’optimisation et la création de SVG mais ils ont le bon goût de beaucoup partager sur les expérimentations qui les aident à créer leurs outils. Une ressource assez incontournable.
+
+#### Des articles isolés
+
 - [The Best Way to Embed SVG on HTML (2021)](https://vecta.io/blog/best-way-to-embed-svg), Thomas Yip - May 25, 2018 : You've probably came across various ways to embed SVG in HTML, but with the latest browser and technology updates, do we still need an <object> tag or can we use <img> instead? What are their pros and cons and how do they compare?
 - [SVG, le dessin vectoriel pour le web](http://www.alsacreations.com/tuto/lire/1421-svg-initiation-syntaxe-outils.html) : Tutoriel sur Alsacréations par Nicolas Gillis
 - [Un logo cliquable SVG avec alternatives](http://www.alsacreations.com/tuto/lire/1482-un-logo-cliquable-svg-avec-alternatives.html) : Tutoriel sur Alsacréations par Stéphanie W.
@@ -256,7 +267,7 @@ Dans cet article complet et clair, Chris Coyier s'intéresse à la mise en oeuvr
 -[Styling SVG Content with CSS | Codrops](https://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/) : See the Pen c30e270090b2460ba6e6833c611e5a76 by Sara Soueidan (@SaraSoueidan) on [CodePen](https://codepen.io/) => https://codepen.io/SaraSoueidan/pen/f15cec4a61e753259bd768de2e20500b/ ??
 - [SVG `use` with External Reference, Take 2](https://css-tricks.com/svg-use-with-external-reference-take-2/), Chris Coyier on May 30, 2017 : SVG has a <use> element which essentially means: go find the chunk of SVG that has this #identifier and kinda clone it and put it right here. It’s an essential ingredient to an SVG icon system. There are some things to know about this that we haven’t covered before
 - [How to animate SVG signature](https://www.silvestar.codes/articles/how-to-animate-svg-signature/) : Let’s see how to animate SVG signature with a little bit of JavaScript and CSS. In this demo, I would show you how to use JavaScript function to calculate SVG path length and CSS animation to animate SVG strokes. You could see the final result on About page or CodePen.
-- [A Guide to SVG Animations (SMIL)](https://css-tricks.com/guide-svg-animations-smil/) : 
+- [SMIL est mort, les alternatives](https://css-tricks.com/smil-is-dead-long-live-smil-a-guide-to-alternatives-to-smil-features/)
 - [Creating a Web Type Lockup](https://css-tricks.com/creating-web-type-lockup/) : Use SVG to create a type lockup (a typographic design where the words and characters are styled and arranged very specifically) 
 - [SVGround](http://svground.fr//) : Un site qui met à disposition des cours gratuits sur SVG (version 1.1) les plus complets possible
 - [SVG ou Canvas, que choisir ?](http://openweb.eu.org/articles/canvas_svg_que_choisir) : Article sur les différences entre SVG et Canvas par Jérémie Patonnier sur OpenWeb
