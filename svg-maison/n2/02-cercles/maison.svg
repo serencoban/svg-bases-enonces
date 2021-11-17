@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copier-coller le code svg de l'exercice précédent
+2.2 Dessiner un cercle
+    Donnons à notre icône de maison un fond vert en forme de cercle
+    1°) Crée un élément cercle
+    2°) Place the center of the circle at cx coordinate 170 and cy coordinate 170
+    3°) Donne au clercle un rayon de 162
+    4°) Color the circle green by adding a fill color of #068C70
+
+2.3 An Outer Stroke for Our Circle 
+    Let's create a stroke for our background circle
+    1°) Give the background circle an outer stroke color of #FFFFFF and stroke-width of 15
+
+-->
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="340" width="340" style="background-color:#F6F7F7;">
+  <!-- Bg Circle -->
+
+  <!-- Chimney -->
+  <rect height="21" width="14" fill="#FBF6A7" x="98" y="127"/>
+  <rect height="4" width="20" fill="#E04E27" x="95" y="123"/>
+
+  <!-- House -->
+  <rect height="84" width="162" fill="#FBF6A7" x="90" y="198"/>
+  <rect height="56" width="184" fill="#E04E27" x="80" y="148"/>
+
+  <!-- Door -->
+  <rect height="60" width="36" fill="#E04E27" x="153" y="222"/>
+  <rect height="8" width="2" fill="#FBF6A7" x="183" y="252"/>
+</svg>

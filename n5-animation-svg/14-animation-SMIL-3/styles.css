@@ -1,0 +1,31 @@
+			#wrap {
+				height: 300px;
+			}
+			svg {
+				margin-top: 4em;
+			}
+			body{
+				font: 20px/1.5 "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,"Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-align: center;
+				background: #f4f4f4;
+    			padding: 0 0 2em 0;
+			}
+			h1{
+			    color: #99b92c;
+			    font-size: 3em;
+			    font-weight: normal;
+			    text-shadow: 1px 1px 1px #cccccc;
+			    background: white;
+			    border-bottom: 2px dotted #ccc;
+			    margin: 0;
+			    padding: 0.8em;
+			}
+
+/* SVG */
+
+/* styler
+- le path pour qu'il ait une couleur yellowgreen, avec une bordure yellowgreen et des bords arrondis
+- le texte : augmenter l'espace inter-lettres à 2px
+*/
+
+

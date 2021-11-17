@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+créer un svg de 340 px de haut et 340 px de large
+avec un fond #F6F7F7 qui va représenter une maison
+-->
+<!--
+ce svg contient
+- une cheminée, formée par deux rectangles
+  * en (98, 127), un rectangle de 21 px de haut et 14 px de large de couleur #FBF6A7
+  * en (95, 123), un rectangle de 4 px de haut et  20 px de large de couleur #E04E27
+- la maison, formée par deux rectanges
+  * en (90, 198), un rectangle de 84 px de haut et 162 px de large de couleur #FBF6A7
+  * en (80, 148), un rectangle de 56 px de haut et 184 px de large de couleur #E04E27
+- une porte, formée par deux rectanges
+  * en (153, 222), un rectangle de 60 px de haut et 36 px de large de couleur #E04E27
+  * en (183, 252), un rectangle de 8 px de haut et 2 px de large de couleur #FBF6A7
+-->
+
+
+  <!-- Chimney -->
+
+  <!-- House -->
+
+  <!-- Door -->

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<title>Texte animé en SMIL</title>
+		<link rel="stylesheet" href="styles.css">     
+	</head>
+	<body>
+		<h1>
+			Un texte qui défile en SMIL sur une forme complexe
+		</h1>
+		<div id="wrap">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid meet">
+
+				<title>Le SVG, c’est trop fun !</title>
+
+				<path id="chemin" d="M 10,180 C 100,0 200,300 300,150 Q 340,100 385,120"/>
+				
+				<!--
+				1°) Ecrire le texte "Le SVG, c’est trop fun !" le long de la ligne dessinée par la forme grâce à l'élément textPath
+				2°) Animer ce texte pour qu'il apparaisse depuis la droite (la fin de la ligne) et disparraisse à gauche (l'amener à -70%) en 7 secondes, l'animation doit boucler à l'infini
+				-->
+			</svg>
+		</div>
+	</body>
+</html>

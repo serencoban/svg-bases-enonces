@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Luckiest Guy';
+  src: url('luckiestguy-webfont.eot');
+  src: url('luckiestguy-webfont.eot?#iefix') format('embedded-opentype'),
+       url('luckiestguy-webfont.woff2') format('woff2'),
+       url('luckiestguy-webfont.woff') format('woff'),
+       url('luckiestguy-webfont.ttf') format('truetype'),
+       url('luckiestguy-webfont.svg#luckiest_guyregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+svg {
+  background-color:#F6F7F7;
+}
+.background-circle {
+  fill: #068C70;
+  stroke: #FFFFFF;
+  stroke-width: 15px;
+}
+.chimney {
+  fill: #FBF6A7;
+}
+.chimney-topper {
+  fill: #E04E27;
+}
+.body {
+  fill: #FBF6A7;
+}
+.roof {
+  fill: #E04E27;
+}
+.door {
+  fill: #E04E27;
+}
+.door-knob {
+  fill:#FBF6A7;
+}
+line {
+  fill: #068C70;
+  stroke: #068C70;
+  stroke-width: 1px;
+}
+.flower-outer {
+  fill: #EC7E23;
+}
+.flower-inner {
+  fill: #FBCE1D;
+}
+text {
+  font-family: "Luckiest Guy";
+  font-size: 68px;
+  fill: #3E9FD8;
+  stroke: #FFFFFF;
+  stroke-width: 2px;
+}
+.windows rect{
+  fill: #3E9FD8
+}
+.windows line{
+  stroke: #E04E27;
+  stroke-width: 4px;
+}

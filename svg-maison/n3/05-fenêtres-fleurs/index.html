@@ -1,0 +1,96 @@
+<!-- 
+3.2 Group All the Things
+    The windows that our designer exported for us seem to be in the wrong location. We can fix this easily by using groups
+    1°) Put the elements that create the right and left windows into one group
+    2°) Move the group to the right 72 and down 110 by using translate()
+    3°) Give the group a class attribute of windows
+    4°) Add a .windows class inside our stylesheet to give the rect element inside our group a fill color of #3E9FD8
+    5°) Now use the .windows class again to give the line elements a stroke of #E04E27 and a stroke-width of 4px
+
+3.3 Move the Group
+    We have added more flowers and grouped/translated them each to their current position
+    1°) One of our flowers is too far off the house. Fix the translate() values so it moves in front of the house and to the left of the other flowers. You'll need to take a few guesses, and watch the SVG displayed in the Preview section
+
+3.5 Rotating That Flower
+    The circles that make up the flower blooms have been grouped. Give the flowers some variety by rotating the second one.
+    1°) Rotate the second flower's bloom group by 195 degrees around an axis of 228,267
+    2°) Rotate the third flower's bloom group by 50 degrees around an axis of 228,267
+
+3.6 Scale That Flower 
+    We can resize the first flower by scaling it! Be sure to translate the flower back to its proper position
+    1°) Scale the first flower by .8
+    2°) Translate the flower back down and over into its proper position using 60 for the X value and 71 for the Y value
+
+3.7 Scale That Other Flower
+    Let's now make the fourth and final flower smaller like the first flower. Yay, symmetry!
+    1°) Scale the last (fourth) flower by .8
+    2°) After the scale(), add another translate() to move the flower back down and over into its proper position using 55 for the X value and 71 for the Y value
+
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <title>You, Me & SVG</title>
+	  <link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+	  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="340" width="340">
+	    <!-- Bg Circle -->
+	    <circle class="background-circle" cx="170" cy="170" r="162"/>
+
+	    <!-- Chimney -->
+	    <rect class="chimney" x="98" y="127" width="14" height="21"/>
+	    <rect class="chimney-topper" x="95" y="123" width="20" height="4"/>
+
+	    <!-- House -->
+	    <rect class="body" x="90" y="198" width="162" height="84"/>
+	    <polygon class="roof" points="256,148 262,203 80,203 87,148 327,148"/>
+
+	    <!-- Door -->
+	    <rect class="door" x="153" y="222" width="36" height="60"/>
+	  	<rect class="door" x="153" y="218" width="36" height="10" rx="5" ry="5"/>
+	    <rect class="door-knob" x="183" y="252" width="2" height="8"/>
+	    
+	    <!-- Window R  -->
+	    <rect x="36" y="113" width="14" height="14"/>
+	    <rect x="52" y="113" width="14" height="14"/>
+	    <rect x="36" y="129" width="14" height="14"/>
+	    <rect x="52" y="129" width="14" height="14"/>
+	    <line x1="34" y1="147" x2="69" y2="147"/>
+
+	    <!-- Window L  -->
+	    <rect x="130" y="113" width="14" height="14"/>
+	    <rect x="146" y="113" width="14" height="14"/>
+	    <rect x="130" y="129" width="14" height="14"/>
+	    <rect x="146" y="129" width="14" height="14"/>
+	    <line x1="128" y1="147" x2="162" y2="147"/>
+
+	    <!-- Flowers -->
+	    <g class="flower">
+	      <line x1="228" y1="267" x2="228" y2="282"/>
+	      <circle class="flower-outer" cx="228" cy="267" r="6"/>
+	      <circle class="flower-inner" cx="231" cy="266" r="2"/>
+	    </g>
+	    <g class="flower" transform="translate(-22, 0)">
+	      <line x1="228" y1="267" x2="228" y2="282"/>
+	      <circle class="flower-outer" cx="228" cy="267" r="6"/>
+	      <circle class="flower-inner" cx="231" cy="266" r="2"/>
+	    </g>
+	    <g class="flower" transform="translate(-93, 0)">
+	      <line x1="228" y1="267" x2="228" y2="282"/>
+	      <circle class="flower-outer" cx="228" cy="267" r="6"/>
+	      <circle class="flower-inner" cx="231" cy="266" r="2"/>
+	    </g>
+	    <g class="flower" transform="translate(-136, 0)">
+	      <line x1="228" y1="267" x2="228" y2="282"/>
+	      <circle class="flower-outer" cx="228" cy="267" r="6"/>
+	      <circle class="flower-inner" cx="231" cy="266" r="2"/>
+	    </g>
+
+	    <!-- TEXT -->
+	    <text x="82" y="100">HOME</text>
+	  </svg>
+	</body>
+</html>

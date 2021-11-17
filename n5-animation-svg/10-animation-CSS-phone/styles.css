@@ -1,0 +1,8 @@
+/* 
+- centrer le body et lui donner une largeur de 50%,
+  centrer son contenu inline (afin que le svg et le texte du titre soient centré)
+- faire en sirte que le svg occupe 30% de la largeur du body
+- animer le cerlce du téléphone au hover sur le svg : il doit rapetisser et grandir à partir de son centre
+- l'animation doit démarrer avec la taille d'origine, diminuer à la moitié de sa taille et revenir à sa taille de départ
+
+*/

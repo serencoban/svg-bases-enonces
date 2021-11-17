@@ -1,0 +1,42 @@
+.brandLogo {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* Brand Logo Letters
+----------------------------------------------------- */
+.brandLogo__letters--01 {
+    fill: #FFF;
+}
+
+.brandLogo__letters--02 {
+    fill: #6F7072;
+}
+
+/* Brand Logo Boxes
+----------------------------------------------------- */
+.brandLogo__box--03 {
+    fill: #F16823;
+}
+
+.brandLogo__box--04 {
+    fill: #A2CE5D;
+}
+
+/* Brand Logo Box 01 Animation
+----------------------------------------------------- */
+/* 
+Couleurs : #538B93 et #0F5156
+Durée de l'animation : 1s
+*/
+
+
+
+/* Brand Logo Box 02 Animation
+----------------------------------------------------- */
+/* 
+Couleurs : #6F7072 et #47494C
+Durée de l'animation : 1s
+Délai avant de démarrer l'animation : .3s
+*/
