@@ -19,3 +19,41 @@ img {
     width: 50%;
     height: auto;
 }
+
+svg {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+circle{
+    fill: transparent;
+    stroke: #008B6F ;
+    stroke-width: 7px
+}
+
+polygon{
+    fill: #008B6F ;
+    stroke: #00392D;
+}
+text{
+    font-family: luckiest_guyregular;
+    font-size: 60px;
+    fill:#F6F7F3;
+    stroke:#00392D;
+    stroke-width:3px;
+    text-anchor:middle;
+    dominant-baseline:middle;
+}
+
+line{
+    stroke:#00392D;
+    stroke-width:5px;
+
+}
+
+.triangle_group {
+    fill: #59BFC6;
+    stroke-width: 1px;
+}

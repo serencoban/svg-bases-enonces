@@ -15,3 +15,9 @@ Vous avez aussi besoin de définir deux attributs,
 
 <!-- N’oubliez pas les balises title et desc pour l’accessibilité -->
 
+<svg id="phone" width="80" height="110" xmlns="http://www.w3.org/2000/svg" version="1.1" >
+    <title>Un téléphone</title>
+    <desc>Un rectangle blanc avec une bordure rouge et un bouton blanc en bas.</desc>
+    <rect width="70" height="100" fill="white" stroke="#FF2626" stroke-width="10" x="5" y="5" rx="5" ry="5" />
+    <circle cx="40" cy="105" r="4" fill="white" />
+</svg>
